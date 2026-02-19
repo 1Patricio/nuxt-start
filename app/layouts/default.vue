@@ -1,7 +1,13 @@
 <template>
     <div>
         <div style="border: 1px solid black;">
-          Nav Bar da Aplicação
+          <nav>
+            <ul>
+              <li><NuxtLink to="/">Home</NuxtLink></li>
+              <li><NuxtLink to="/about">About</NuxtLink></li>
+              <li><NuxtLink to="/posts/1">Posts</NuxtLink></li>
+            </ul>
+          </nav>
         </div>
         <slot/>
         <div style="border: 1px solid black;">

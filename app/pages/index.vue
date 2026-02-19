@@ -5,3 +5,9 @@
    <img src="~/assets/quasar-logo.png"/>
   </div>
 </template>
+
+<script setup>
+definePageMeta({
+  middleware: 'auth',
+})
+</script>
