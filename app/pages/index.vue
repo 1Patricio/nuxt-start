@@ -9,5 +9,6 @@
 <script setup>
 definePageMeta({
   middleware: 'auth',
+  title: 'Home'
 })
 </script>

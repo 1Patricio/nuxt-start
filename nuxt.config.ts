@@ -9,4 +9,15 @@ export default defineNuxtConfig({
       titleSite: 'Curso Vuejs Expert'
     },
   },
+  app: {
+    head: {
+      title: 'Módulo Nuxt - Curso VueExpert',
+      htmlAttrs: {
+        lang: 'pt-br'
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
+  }
 })
