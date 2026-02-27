@@ -6,6 +6,7 @@
               <li><NuxtLink to="/">Home</NuxtLink></li>
               <li><NuxtLink to="/about">About</NuxtLink></li>
               <li><NuxtLink to="/posts/1">Posts</NuxtLink></li>
+              <li><NuxtLink to="/fetch">Fetch</NuxtLink></li>
             </ul>
           </nav>
         </div>
